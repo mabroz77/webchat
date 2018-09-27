@@ -1,0 +1,9 @@
+{
+	"users":[
+		{
+			"login": "testLogin",
+			"password": "testPass",
+			"userStatus": "online"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Zarejestruj sie</title>
+</head>
+<body>
+<h2>Zarejestruj sie</h2>
+<form action="/saveUser" method="post">
+    <input type="hidden" class="form-control" name="userStatus" id="userStatus">
+    <label>Nazwa użytkownika:</label>
+    <input type="text" class="form-control" field="login" name="login" id="login"/>
+    <label >Hasło:</label>
+    <input type="password" class="form-control" field="password" name="password" id="password"/>
+    <button type="submit" class="btn btn-default">Submit</button>
+</form>
+</body>
+</html>
